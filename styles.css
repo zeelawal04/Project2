@@ -133,3 +133,31 @@ nav {
   align-items: center;
   gap: 2rem;
 }
+.quote {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 3.37rem;
+  padding: 0 14.37rem 0 11.87rem;
+}
+
+.btn2 {
+  padding: 1.5rem 4rem;
+  border: 5px solid #ffb400;
+  font-weight: 600;
+  font-size: 14px;
+  background: #ffffff;
+}
+
+.sec-2 {
+  display: grid;
+  grid-template-columns: 27.5rem 1fr;
+
+  height: 45.6rem;
+  width: 100%;
+}
+.sec-2-a {
+  background-image: url("/img/Brown\ Building.png");
+  background-size: cover;
+  height: 45.6rem;
+}
