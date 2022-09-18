@@ -152,12 +152,39 @@ nav {
 .sec-2 {
   display: grid;
   grid-template-columns: 27.5rem 1fr;
-
   height: 45.6rem;
   width: 100%;
+  background: #f7f7f7;
 }
+
 .sec-2-a {
   background-image: url("/img/Brown\ Building.png");
   background-size: cover;
   height: 45.6rem;
+}
+
+.sec-2-b {
+  margin: 8.37rem;
+}
+
+.project {
+  font-family: Rubik;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 2.4rem;
+}
+
+.border {
+  width: 3rem;
+  border-bottom: 5px solid #ffb400;
+}
+
+.word-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.word1 {
+  margin-left: /*4.75rem 5rem 0*/ 8.3rem;
 }
