@@ -183,8 +183,14 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-top: 2rem;
+  gap: 5rem;
 }
 
 .word1 {
-  margin-left: /*4.75rem 5rem 0*/ 8.3rem;
+  margin-left: 4.75rem 5rem 0 8.3rem;
+}
+
+.word2 {
+  margin-bottom: 4.7rem;
 }
