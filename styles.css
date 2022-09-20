@@ -183,14 +183,47 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 2rem;
+  margin-top: 4.75rem;
   gap: 5rem;
 }
 
 .word1 {
-  margin-left: 4.75rem 5rem 0 8.3rem;
+  line-height: 27px;
+  font-family: Open Sans;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0.04em;
 }
 
 .word2 {
-  margin-bottom: 4.7rem;
+  line-height: 27px;
+  font-family: Open Sans;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+}
+
+.btn3 {
+  margin-top: 2.75rem;
+  font-family: Rubik;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  padding: 1rem 3.3rem;
+  background: #f7f7f7;
+  border: 5px solid #2a2a2a;
+}
+
+.button-wrap {
+  display: grid;
+  grid-template-columns: 8rem 8rem;
+}
+
+.btn4 {
+  background-color: #2a2a2a;
+  width: 8rem;
+}
+.btn5 {
+  background-color: #ffb400;
+  width: 8rem;
 }
